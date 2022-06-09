@@ -10,7 +10,7 @@ export default function ProfileSection() {
         </span>
       </h1>
       <div className='grid-cols-2 justify-center pt-8 md:flex '>
-        <div className='max-w-md pb-4 duration-700 hover:scale-110'>
+        <div className='max-w-md pb-1 duration-700 hover:scale-110'>
           <NextImage
             useSkeleton
             className='mx-auto rounded-full border-4 border-primary-400 '
@@ -22,17 +22,17 @@ export default function ProfileSection() {
           <p className='pt-2 text-center text-xl text-violet-700'>
             Frontend web developer
           </p>
-          <p className='max-w-md px-24 text-center text-slate-200'>
+          <p className='max-w-md px-8 text-center text-slate-200'>
             I work with React Ecosystem and make videos to teach people how to
             rebuild and redefine fundamental programming concepts.
           </p>
         </div>
-        <div className='my-auto px-8 duration-700 hover:scale-110'>
+        <div className=' px-8 duration-700 hover:scale-110'>
           <video
-            className='shadow-xl shadow-primary-900'
-            style={{ width: '460px', height: '270px' }}
+            className=' shadow-xl shadow-primary-900'
+            style={{ width: '460px', height: '280px' }}
             muted
-            autoPlay
+            loop
             poster='/images/thumb.png'
             src='/videos/reduce01-highlight.mp4'
             controls
