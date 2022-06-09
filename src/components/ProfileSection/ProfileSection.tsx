@@ -1,3 +1,4 @@
+import ArrowLink from '@/components/links/ArrowLink';
 import NextImage from '@/components/NextImage';
 
 export default function ProfileSection() {
@@ -19,15 +20,25 @@ export default function ProfileSection() {
             height='120'
             alt='photo'
           />
-          <p className='pt-2 text-center text-xl text-violet-700'>
+          <p className='pt-2 text-center text-xl text-fuchsia-400'>
             Frontend web developer
           </p>
           <p className='max-w-md px-8 text-center text-slate-200'>
             I work with React Ecosystem and make videos to teach people how to
             rebuild and redefine fundamental programming concepts.
+            <br />
+            <ArrowLink
+              className='h-8 w-16 text-primary-500'
+              href='https://github.com/helton-quintans'
+              width='80px'
+              height='10px'
+              openNewTab={true}
+            >
+              Github
+            </ArrowLink>
           </p>
         </div>
-        <div className=' px-8 duration-700 hover:scale-110'>
+        <div className='px-4'>
           <video
             className=' shadow-xl shadow-primary-900'
             style={{ width: '460px', height: '280px' }}
@@ -37,18 +48,6 @@ export default function ProfileSection() {
             src='/videos/reduce01-highlight.mp4'
             controls
           ></video>
-          {/* <div>
-            <div h-80 w-80>
-              <iframe
-                width='320'
-                height='280'
-                src='https://www.youtube.com/embed/jnd-BnjiujU'
-                title='YouTube video player'
-                frameBorder='0'
-                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-                allowFullScreen
-              ></iframe>
-          </div> */}
         </div>
       </div>
 
