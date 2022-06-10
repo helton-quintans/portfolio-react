@@ -2,7 +2,7 @@ import NextImage from '@/components/NextImage';
 
 export default function CardProject() {
   return (
-    <div className='container m-auto px-6 text-gray-500 md:px-12 xl:px-0'>
+    <div className='container m-auto p-6 text-gray-500 md:px-12 xl:px-0'>
       <div className='mx-auto grid gap-6 md:w-3/4 lg:w-full lg:grid-cols-3'>
         <div className='rounded-2xl bg-white px-8 py-12 shadow-xl sm:px-12 lg:px-8'>
           <div className='mb-12 space-y-4'>
