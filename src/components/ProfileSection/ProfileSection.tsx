@@ -3,7 +3,7 @@ import NextImage from '@/components/NextImage';
 
 export default function ProfileSection() {
   return (
-    <section className='h-screen bg-gradient-to-r from-black to-slate-900 sm:bg-violet-200 md:bg-violet-400 lg:bg-violet-700 xl:bg-gradient-to-r'>
+    <div className='h-screen bg-gradient-to-r from-black to-slate-900 sm:bg-violet-200 md:bg-violet-400 lg:bg-violet-700 xl:bg-gradient-to-r'>
       <h1 className='pt-4 text-center text-3xl text-neutral-100'>
         👨‍🚀 Hi! You can call me
         <span className='ml-2 text-center text-4xl underline decoration-violet-900 underline-offset-8 transition-colors'>
@@ -56,6 +56,6 @@ export default function ProfileSection() {
           Techs
         </h1>
       </div>
-    </section>
+    </div>
   );
 }
