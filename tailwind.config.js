@@ -13,12 +13,19 @@ function withOpacityValue(variable) {
 /** @type {import("@types/tailwindcss/tailwind-config").TailwindConfig } */
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  // purge: ['./pages/**/*.{js,jsx,ts,tsx}', './components/**/*.{js,jsx,ts,tsx}'],
+  // darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {
       fontFamily: {
         primary: ['Inter', ...fontFamily.sans],
       },
       colors: {
+        accent: {
+          100: '#DBFF00',
+          200: '#d946ef',
+          300: '#00E0F3',
+        },
         primary: {
           // Customize it on globals.css :root
           50: withOpacityValue('--tw-color-primary-50'),
