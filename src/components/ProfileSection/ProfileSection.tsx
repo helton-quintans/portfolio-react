@@ -4,13 +4,13 @@ import NextImage from '@/components/NextImage';
 export default function ProfileSection() {
   return (
     <div className='h-screen px-6'>
-      <h1 className='pt-4 text-center text-3xl text-neutral-100'>
-        👨‍🚀 Hi! You can call me
-        <span className='ml-2 text-center text-4xl underline decoration-violet-900 underline-offset-8 transition-colors'>
+      <h1 className=' py-4 text-center text-3xl text-neutral-100 sm:pt-8 md:pt-8 lg:pt-8 xl:pt-8'>
+        👋 Hi! You can call me
+        <span className='ml-2 text-center text-4xl underline decoration-fuchsia-500 underline-offset-8 transition-colors'>
           Helton
         </span>
       </h1>
-      <div className='grid-cols-2 justify-center pt-8 md:flex '>
+      <div className='grid-cols-2 items-center justify-center sm:py-24 md:flex md:py-24 lg:py-24 xl:py-24 '>
         <div className='max-w-md pb-1 duration-700 hover:scale-110'>
           <NextImage
             useSkeleton
@@ -28,13 +28,11 @@ export default function ProfileSection() {
             rebuild and redefine fundamental programming concepts.
             <br />
             <ArrowLink
-              className='h-8 w-16 text-primary-500'
+              className='justify-center pt-2 text-xl text-primary-500'
               href='https://github.com/helton-quintans'
-              width='80px'
-              height='10px'
               openNewTab={true}
             >
-              Github
+              👨‍🚀 Github
             </ArrowLink>
           </p>
         </div>
