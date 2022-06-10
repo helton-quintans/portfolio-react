@@ -14,7 +14,7 @@ export default function Header() {
   const { theme } = useTheme();
 
   return (
-    <header className=' sticky top-0 z-50 h-16 w-screen bg-gradient-to-r from-black to-slate-900 '>
+    <header className=' sticky top-0 z-50 h-16 bg-gradient-to-r from-black to-slate-900 '>
       <div className='h-2 bg-gradient-to-tr from-primary-100 via-primary-500 to-primary-900'></div>
       <div className='layout flex h-14 items-center justify-between'>
         <UnstyledLink

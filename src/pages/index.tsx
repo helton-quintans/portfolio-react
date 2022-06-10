@@ -31,7 +31,7 @@ export default function HomePage() {
           <p className='py-6'>Main technologies I work currently.</p>
           <TechStack />
         </div>
-        <div className=' px-8 text-center text-slate-200 '>
+        <div className='px-8 pt-12 text-center text-slate-200 '>
           <h1 className=' text-4xl underline decoration-fuchsia-500 underline-offset-8 transition-colors '>
             Projects
           </h1>

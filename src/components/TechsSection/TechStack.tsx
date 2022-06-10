@@ -3,7 +3,6 @@ import * as React from 'react';
 import { IoLogoVercel } from 'react-icons/io5';
 import {
   SiCss3,
-  SiHtml5,
   SiNextdotjs,
   SiNodedotjs,
   SiReact,
@@ -34,19 +33,19 @@ export default function TechStack() {
 }
 
 const stacks = [
-  {
-    id: 'html',
-    icon: SiHtml5,
-    tooltip: (
-      <>
-        <CustomLink href='https://developer.mozilla.org/en-US/docs/Glossary/HTML5'>
-          HTML5
-        </CustomLink>
-        , currently my go-to framework because of the static generation, dynamic
-        paths, and built-in api.
-      </>
-    ),
-  },
+  // {
+  //   id: 'html',
+  //   icon: SiHtml5,
+  //   tooltip: (
+  //     <>
+  //       <CustomLink href='https://developer.mozilla.org/en-US/docs/Glossary/HTML5'>
+  //         HTML5
+  //       </CustomLink>
+  //       , currently my go-to framework because of the static generation, dynamic
+  //       paths, and built-in api.
+  //     </>
+  //   ),
+  // },
   {
     id: 'css',
     icon: SiCss3,

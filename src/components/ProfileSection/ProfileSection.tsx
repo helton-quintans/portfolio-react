@@ -3,7 +3,7 @@ import NextImage from '@/components/NextImage';
 
 export default function ProfileSection() {
   return (
-    <div className='h-screen px-6'>
+    <div className='h-screen sm:px-6 md:px-6 lg:px-6 xl:px-6'>
       <h1 className=' py-4 text-center text-3xl text-neutral-100 sm:pt-8 md:pt-8 lg:pt-8 xl:pt-8'>
         👋 Hi! You can call me
         <span className='ml-2 text-center text-4xl underline decoration-fuchsia-500 underline-offset-8 transition-colors'>
@@ -36,7 +36,7 @@ export default function ProfileSection() {
             </ArrowLink>
           </p>
         </div>
-        <div className='shadow-xl shadow-primary-900'>
+        <div className='px-8 shadow-xl shadow-primary-900'>
           <video
             style={{ width: '460px', height: '280px' }}
             muted
