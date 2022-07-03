@@ -15,7 +15,7 @@ import Tooltip from '@/components/Tooltip';
 
 export default function TechStack() {
   return (
-    <div className='flex justify-center space-x-2 md:space-x-4'>
+    <div className='grid-row-6 flex justify-center space-x-2 md:space-x-4 lg:space-x-16'>
       {stacks.map((tech) => (
         <Tooltip key={tech.id} content={<p>{tech.tooltip}</p>}>
           <tech.icon
