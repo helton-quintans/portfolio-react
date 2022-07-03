@@ -1,7 +1,7 @@
 import Button from '@/components/buttons/Button';
-import ArrowLink from '@/components/links/ArrowLink';
 import NextImage from '@/components/NextImage';
 import { FaGithub, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
+import { SiReact } from 'react-icons/si';
 
 export default function ProfileSection() {
   return (
@@ -20,51 +20,24 @@ export default function ProfileSection() {
             Fullstack web developer
           </p>
           <p className='text-lg max-w-md py-4 px-6 text-center text-slate-200'>
-            I work with React Ecosystem and make videos to teach people how to
-            rebuild and redefine fundamental programming concepts.
+            👨‍🚀 I work with React Ecosystem.
             <br />
           </p>
         </div>
         <Button variant='outline' className='animate-pulse mt-2 justify-center px-40 text-xl text-primary-500'>
           <FaGithub />
-          {/* <ArrowLink
-                className='ml-2'
-                href='https://github.com/helton-quintans'
-                openNewTab={true}
-              >
-                Github
-              </ArrowLink> */}
         </Button>
 
         <Button variant='outline' className='animate-pulse mt-2 justify-center px-40 text-xl text-primary-500'>
           <FaLinkedin />
-          {/* <ArrowLink
-                className='ml-2'
-                href='https://github.com/helton-quintans'
-                openNewTab={true}
-              >
-                Linkedin
-              </ArrowLink> */}
+
         </Button>
         <Button variant='outline' className='animate-pulse mt-2 justify-center px-40 text-xl text-primary-500'>
           <FaYoutube />
-          {/* <ArrowLink
-                className='ml-2'
-                href='https://github.com/helton-quintans'
-                openNewTab={true}
-              >
-                Youtube
-              </ArrowLink> */}
+
         </Button>
         <Button variant='outline' className='animate-pulse mt-2 justify-center px-40 text-xl text-primary-500'>
           <FaInstagram />
-          {/* <ArrowLink
-                className='ml-2'
-                href='https://github.com/helton-quintans'
-                openNewTab={true}
-              >
-                Instagram
-              </ArrowLink> */}
         </Button>
       </section >
     </>

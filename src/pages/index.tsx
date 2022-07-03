@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import CardProject from '@/components/CardProject/CardProject';
+import CardProject from '@/components/ProjectsSection/Projects';
 import Layout from '@/components/layout/Layout';
 import ProfileSection from '@/components/ProfileSection/ProfileSection';
 import Seo from '@/components/Seo';
@@ -50,39 +50,8 @@ export default function HomePage() {
 
         <TechSection />
 
-        {/* <section className=' px-8 '>
-          <div className='animate-pulse items-center flex grid grid-cols-2'>
-            <div className='flex flex-col justify-center text-purple-500'>
-              <FaReact size={65} />
-              <p className=''>React</p>
-            </div>
-            <div className='text-purple-500'>
-              <SiTypescript size={65} />
-              <p className='mr-3'>Typescript</p>
-            </div>
-            <div className='text-purple-500'>
-              <SiJavascript size={65} />
-            </div>
-            <div className='text-purple-500'>
-              <FaNodeJs size={65} />
-            </div>
-            <div className='text-purple-500'>
-              <FaHtml5 size={65} />
-            </div>
-            <div className='text-purple-500'>
-              <FaCss3 size={65} />
-            </div>
-            <div className='text-purple-500'>
-              <FaGithub size={65} />
-            </div>
-            <div className='text-purple-500'>
-              <FaHtml5 size={65} />
-
-          </div>
-          <TechStack />
-        </section> */}
-        <div className='px-8 pt-12 text-center text-slate-200 '>
-          <h1 className=' text-4xl underline decoration-fuchsia-500 underline-offset-8 transition-colors '>
+        <div className='px-8 sm:md:xl:lg:px-16 pt-10 text-center text-slate-200 '>
+          <h1 className=' text-4xl pb-8 underline decoration-fuchsia-500 underline-offset-8 transition-colors '>
             Projects
           </h1>
           <CardProject />
