@@ -7,7 +7,7 @@ import { openGraph } from '@/lib/helper';
 const defaultMeta = {
   title: 'Helton Quintãns',
   siteName: 'Portfolio Helton Quintãns ',
-  description: 'Personal website of frontend web developer Helton Quintãns',
+  description: 'Personal website of full stack developer Helton Quintãns',
   /** Without additional '/' on the end, e.g. https://theodorusclarence.com */
   url: 'https://tsnext-tw.thcl.dev',
   type: 'website',
@@ -95,7 +95,7 @@ type Favicons = {
   type?: string;
 };
 
-// This is the default favicon, you can generate your own from https://www.favicon-generator.org/ then replace the whole /public/favicon folder
+// Generate your own from https://www.favicon-generator.org/ then replace the whole /public/favicon folder
 const favicons: Array<Favicons> = [
   {
     rel: 'apple-touch-icon',

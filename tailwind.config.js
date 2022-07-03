@@ -17,6 +17,10 @@ module.exports = {
   // darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {
+      backgroundImage: {
+        'hero-pattern': "url('/images/background.png')",
+        'footer-texture': "url('/img/footer-texture.png')",
+      },
       fontFamily: {
         primary: ['Inter', ...fontFamily.sans],
       },

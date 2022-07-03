@@ -1,10 +1,12 @@
 import * as React from 'react';
 
-import CardProject from '@/components/CardProject/CardProject';
+import Seo from '@/components/Seo';;
 import Layout from '@/components/layout/Layout';
 import ProfileSection from '@/components/ProfileSection/ProfileSection';
-import Seo from '@/components/Seo';
-import TechStack from '@/components/TechsSection/TechStack';
+import Videocard from '@/components/VideoCard/Videocard';
+import TechSection from '@/components/TechsSection/TechSection';
+import CardProject from '@/components/ProjectsSection/Projects';
+import { BiDonateHeart } from 'react-icons/bi'
 
 /**
  * SVGR Support
@@ -21,18 +23,37 @@ import TechStack from '@/components/TechsSection/TechStack';
 export default function HomePage() {
   return (
     <Layout>
-      <Seo templateTitle='Home' description='Personal projects portfolio' />
-      <main>
-        <ProfileSection />
-        <div className=' px-8 pb-8 text-center text-slate-200 '>
-          <h1 className=' text-4xl underline decoration-fuchsia-500 underline-offset-8 transition-colors '>
-            Techs
+      <Seo templateTitle='Home' description='Personal projects portfolio from Helto Quintãns' />
+      <main className='bg-black'>
+        <div className=' '>
+          <h1 className='shadow-md shadow-primary-900 bg-gradient-to-r from-purple-500 py-4 text-center text-3xl text-neutral-100 '>
+            👋 Hi! You can call me
+            <span className='ml-2 text-center text-4xl underline decoration-fuchsia-500 underline-offset-8 transition-colors'>
+              Helton.
+            </span>
           </h1>
-          <p className='py-6'>Main technologies I work currently.</p>
-          <TechStack />
         </div>
-        <div className='px-8 pt-12 text-center text-slate-200 '>
-          <h1 className=' text-4xl underline decoration-fuchsia-500 underline-offset-8 transition-colors '>
+        <ProfileSection />
+
+        <section className='px-8 flex flex-col items-center justify-center bg-black'>
+          <h1 className='text-4xl text-white mt-md underline decoration-fuchsia-500 underline-offset-8 transition-colors text-center '>
+            In love with javascript <span>💛</span>
+          </h1>
+          <p className=' text-lg py-8 max-w-md px-6 text-center text-slate-200'>
+            I make videos to teach people how to rebuild and redefine fundamental programming concepts.
+            <br />
+            <p className='mt-2 flex text-center items-center justify-center'>
+
+              <BiDonateHeart size={40} />
+            </p>
+          </p>
+          <Videocard />
+        </section>
+
+        <TechSection />
+
+        <div className='px-8 sm:md:xl:lg:px-16 pt-10 text-center text-slate-200 '>
+          <h1 className=' text-4xl pb-8 underline decoration-fuchsia-500 underline-offset-8 transition-colors '>
             Projects
           </h1>
           <CardProject />

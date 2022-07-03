@@ -40,9 +40,9 @@ export default function Header() {
             ))}
             <button
               className='animate-pulse rounded-md p-2.5 text-primary-400 hover:border-accent-200 hover:text-accent-200 focus:outline-none dark:hover:border-accent-200 dark:hover:text-accent-200'
-              // onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+            // onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
             >
-              {theme === 'light' ? <FiMoon size={20} /> : <FiSun size={20} />}
+              {theme === 'dark' ? <FiMoon size={20} /> : <FiSun size={20} />}
             </button>
           </ul>
         </nav>
