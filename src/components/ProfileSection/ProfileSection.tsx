@@ -6,7 +6,7 @@ import { SiReact } from 'react-icons/si';
 export default function ProfileSection() {
   return (
     <>
-      <section className='flex flex-col sm:py-20 md:py-10 lg:py-10 xl:py-10 flex items-center justify-center bg-black py-6'>
+      <section className='flex flex-col sm:py-20 md:py-20 lg:py-20 xl:py-10 flex items-center justify-center bg-black py-6'>
         <div className=' items-center max-w-md duration-700 hover:scale-110'>
           <NextImage
             useSkeleton={true}

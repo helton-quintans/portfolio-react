@@ -1,14 +1,12 @@
 import * as React from 'react';
 
-import CardProject from '@/components/ProjectsSection/Projects';
+import Seo from '@/components/Seo';;
 import Layout from '@/components/layout/Layout';
 import ProfileSection from '@/components/ProfileSection/ProfileSection';
-import Seo from '@/components/Seo';
-import TechStack from '@/components/TechsSection/TechStack';
 import Videocard from '@/components/VideoCard/Videocard';
-import { FaCss3, FaGithub, FaHtml5, FaNodeJs, FaReact } from 'react-icons/fa';
-import { SiJavascript, SiTypescript } from 'react-icons/si';
 import TechSection from '@/components/TechsSection/TechSection';
+import CardProject from '@/components/ProjectsSection/Projects';
+import { BiDonateHeart } from 'react-icons/bi'
 
 /**
  * SVGR Support
@@ -44,6 +42,10 @@ export default function HomePage() {
           <p className=' text-lg py-8 max-w-md px-6 text-center text-slate-200'>
             I make videos to teach people how to rebuild and redefine fundamental programming concepts.
             <br />
+            <p className='mt-2 flex text-center items-center justify-center'>
+
+              <BiDonateHeart size={40} />
+            </p>
           </p>
           <Videocard />
         </section>
